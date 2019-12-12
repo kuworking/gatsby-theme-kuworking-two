@@ -1,1 +1,1 @@
-# gatsby-theme-kuworking-two
+## Gatsby Theme Kuworking Blog
