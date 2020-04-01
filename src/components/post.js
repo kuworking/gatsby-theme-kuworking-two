@@ -22,7 +22,7 @@ export const Post = ({ blogPost: { images, post, structure: { post_related_image
 
   return (
     <>
-      <Title name="tothetop" sx={{ variant: 'post.h1' }}>
+      <Title name="tothetop">
         <div>
           {post.title.split('#').map((el, i) => (i % 2 === 0 ? <span key={i}>{el}</span> : <em key={i}>{el}</em>))}
         </div>
@@ -63,7 +63,7 @@ export const Post = ({ blogPost: { images, post, structure: { post_related_image
       {(image.fake && <FakeImage />) || (
         <FixImage>
           <div>
-            <Img data_image={image.src} title="related to post" />
+            <Img image={[image.src.standard, image.src]} alt="related to post" />
           </div>
         </FixImage>
       )}
