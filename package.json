@@ -1,6 +1,6 @@
 {
   "name": "gatsby-theme-kuworking-two",
-  "version": "0.1.74",
+  "version": "0.1.90",
   "description": "gatsby-theme-kuworking-two",
   "main": "index.js",
   "author": "kuworking.com",
@@ -10,26 +10,28 @@
     "url": "https://github.com/kuworking/gatsby-theme-kuworking-two.git"
   },
   "peerDependencies": {
-    "gatsby": "2.20.9",
+    "gatsby": "2.20.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "gatsby": "2.20.9",
+    "gatsby": "2.20.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "dependencies": {
     "@mdx-js/react": "1.5.8",
-    "gatsby-theme-kuworking-core": "^0.1.67",
+    "gatsby-theme-kuworking-core": "^0.1.83",
+    "react-cookie-consent": "3.0.0",
     "typeface-squada-one": "0.0.72"
   },
   "resolutions": {
+    "**/gatsby": "2.20.5",
     "**/@emotion/core": "10.0.28",
     "**/@emotion/styled": "10.0.27",
     "**/@mdx-js/mdx": "1.5.8",
     "**/@mdx-js/react": "1.5.8",
     "theme-ui": "0.3.1"
   },
-  "gitHead": "8a025c30d3d4a89df7532e12622afd7ec1c9710c"
+  "gitHead": "0b3b18d3c8a782b38d638b71913282e0a3ad2fad"
 }
